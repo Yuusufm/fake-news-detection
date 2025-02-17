@@ -34,10 +34,5 @@ python fake_news_detector.py
 - False Positives: 50
 - False Negatives: 42
 
-## Project Structure
-
-fake_news_detector.py - Main script for fake news detection
-data/ - Directory containing the dataset
-README.md - This file
 
 
