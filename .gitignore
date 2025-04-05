@@ -1,13 +1,53 @@
-# Python
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
-.env
-venv/
-.venv/
-data/
-*.csv
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
 
-# IDE
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model and data files (optional: remove if you want to include these)
+# *.pkl
+# data/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# macOS specific
+.DS_Store
+
+# IDE specific files
+.idea/
 .vscode/
-.idea/ 
+*.swp
+*.swo
+
+# Python
+.env
+data/
+*.csv 

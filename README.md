@@ -35,4 +35,3 @@ python fake_news_detector.py
 - False Negatives: 42
 
 
-
